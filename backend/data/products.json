@@ -1,0 +1,82 @@
+{
+    "Organic Milk": {
+        "price": 3.04,
+        "nutri_score": "B"
+    },
+    "Whole Grain Bread": {
+        "price": 2.34,
+        "nutri_score": "A"
+    },
+    "Avocado": {
+        "price": 1.71,
+        "nutri_score": "B"
+    },
+    "Greek Yogurt": {
+        "price": 3.26,
+        "nutri_score": "A"
+    },
+    "Spinach": {
+        "price": 1.47,
+        "nutri_score": "A"
+    },
+    "Chicken Breast": {
+        "price": 8.67,
+        "nutri_score": "A"
+    },
+    "Oatmeal": {
+        "price": 4.24,
+        "nutri_score": "A"
+    },
+    "Blueberries": {
+        "price": 3.99,
+        "nutri_score": "A"
+    },
+    "Almonds": {
+        "price": 5.01,
+        "nutri_score": "B"
+    },
+    "Salmon Fillet": {
+        "price": 12.44,
+        "nutri_score": "A"
+    },
+    "Peanut Butter": {
+        "price": 3.71,
+        "nutri_score": "C"
+    },
+    "Brown Rice": {
+        "price": 2.39,
+        "nutri_score": "A"
+    },
+    "Quinoa": {
+        "price": 4.03,
+        "nutri_score": "A"
+    },
+    "Sweet Potato": {
+        "price": 1.89,
+        "nutri_score": "A"
+    },
+    "Eggs (12ct)": {
+        "price": 3.84,
+        "nutri_score": "B"
+    },
+    "Olive Oil": {
+        "price": 9.08,
+        "nutri_score": "C"
+    },
+    "Dark Chocolate": {
+        "price": 2.61,
+        "nutri_score": "D"
+    },
+    "Apples": {
+        "price": 2.49,
+        "nutri_score": "A"
+    },
+    "Bananas": {
+        "price": 1.72,
+        "nutri_score": "B"
+    },
+    "Broccoli": {
+        "price": 1.95,
+        "nutri_score": "A"
+    }
+}

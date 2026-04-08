@@ -1,0 +1,42 @@
+{
+    "Pesto Pasta": {
+        "quantity": 2,
+        "ingredients": ["Pasta", "Pesto sauce", "Parmesan", "Pine nuts"]
+    },
+    "Tomato Soup": {
+        "quantity": 4,
+        "ingredients": ["Tomatoes", "Onion", "Garlic", "Vegetable broth", "Cream"]
+    },
+    "Grilled Cheese": {
+        "quantity": 1,
+        "ingredients": ["Bread", "Butter", "Cheddar cheese"]
+    },
+    "Greek Salad": {
+        "quantity": 2,
+        "ingredients": ["Cucumber", "Tomatoes", "Feta cheese", "Olives", "Red onion"]
+    },
+    "Omelette": {
+        "quantity": 1,
+        "ingredients": ["Eggs", "Milk", "Bell peppers", "Spinach", "Cheese"]
+    },
+    "Quinoa Bowl": {
+        "quantity": 2,
+        "ingredients": ["Quinoa", "Chickpeas", "Spinach", "Avocado", "Lemon dressing"]
+    },
+    "Beef Burger": {
+        "quantity": 2,
+        "ingredients": ["Burger buns", "Ground beef", "Lettuce", "Tomato", "Onion"]
+    },
+    "Berry Smoothie": {
+        "quantity": 1,
+        "ingredients": ["Banana", "Frozen berries", "Almond milk", "Honey"]
+    },
+    "Baked Salmon": {
+        "quantity": 2,
+        "ingredients": ["Salmon fillets", "Lemon", "Asparagus", "Olive oil"]
+    },
+    "Fruit Salad": {
+        "quantity": 4,
+        "ingredients": ["Apples", "Grapes", "Strawberries", "Melon", "Orange juice"]
+    }
+}
