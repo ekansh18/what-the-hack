@@ -25,7 +25,7 @@ Do this once when you first clone the project.
 git clone https://github.com/ekansh18/what-the-hack.git
 ```
 
-### 2. Create a virtual environment
+### 2. Create a virtual environment in the backend folder
 
 ```bash
 python3 -m venv myenv
@@ -42,16 +42,16 @@ source myenv/bin/activate
 **Windows (Command Prompt)**
 
 ```bash
-.venv\Scripts\activate
+myenv\Scripts\activate
 ```
 
 **Windows (PowerShell)**
 
 ```bash
-.venv\Scripts\Activate.ps1
+myenv\Scripts\Activate.ps1
 ```
 
-You'll know it worked when you see `(.venv)` at the start of your terminal line.
+You'll know it worked when you see `(myvenv)` at the start of your terminal line.
 
 ### 4. Install dependencies
 
@@ -82,7 +82,7 @@ The server runs at **http://localhost:8000**
 | http://localhost:8000/docs   | Interactive Swagger UI — test endpoints here |
 | http://localhost:8000/health | Health check                                 |
 
-To stop the server: `Ctrl+C`
+To stop the server: `Ctrl+C` or `Control+C`
 
 ---
 
@@ -98,12 +98,14 @@ pip freeze > requirements.txt    # save it so teammates get it too
 ## Project Structure
 
 ```
-my-fastapi-app/
+what-the-hack/
 ├── myenv/               ← virtual environment (do not commit)
 ├── .vscode/
-│   └── launch.json      ← debugger config
-├── main.py              ← FastAPI app
-├── requirements.txt     ← Python dependencies
+│   └── launch.json
+├── backend              ← backend folder
+├   └── main.py          ← FastAPI app
+├   └──requirements.txt  ← Python dependencies
+├── frontend             ← frontend folder
 └── .gitignore
 ```
 
@@ -124,8 +126,8 @@ Install these from the Extensions panel (`Ctrl+Shift+X`):
 
 | What                             | Command                                 |
 | -------------------------------- | --------------------------------------- |
-| Activate virtual env (Mac/Linux) | `source .venv/bin/activate`             |
-| Activate virtual env (Windows)   | `.venv\Scripts\activate`                |
+| Activate virtual env (Mac/Linux) | `source myenv/bin/activate`             |
+| Activate virtual env (Windows)   | `myenv\Scripts\activate`                |
 | Start server                     | `uvicorn main:app --reload`             |
 | Start on a different port        | `uvicorn main:app --reload --port 8080` |
 | Install a package                | `pip install <package>`                 |
